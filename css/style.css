@@ -1,0 +1,123 @@
+@font-face {
+	font-family: 'PFDinTextCondPro';
+	src: url('../fonts/pfdintextcondpro-regular.eot');
+	src: local('â˜º'), url('../fonts/pfdintextcondpro-regular.woff') format('woff'), url('../fonts/pfdintextcondpro-regular.ttf') format('truetype'), url('../fonts/pfdintextcondpro-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PFDinTextCondPro';
+	src: url('../fonts/pfdintextcondpro-medium.eot');
+	src: local('â˜º'), url('../fonts/pfdintextcondpro-medium.woff') format('woff'), url('../fonts/pfdintextcondpro-medium.ttf') format('truetype'), url('../fonts/pfdintextcondpro-medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+ 
+ body {
+    margin: 0;
+    font-family: "PFDinTextCondPro",
+    Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+.link {
+    color: RGB(117,35,45);
+    transition: color .2s;
+}
+
+.link:hover {
+    color:  gray; 
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    flex: 0;
+}
+
+.header-link {
+    margin: 0 10px;   
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.aside {
+    width: 300px;
+    flex: 0;   
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 100px;
+}
+
+.img {
+    border: thin solid RGB(117,35,45);    
+}
+
+.title {
+    color: RGB(100,97,102);
+    font-family: "PFDinTextCondPro",
+    Helvetica, Arial, sans-serif;
+    align-items: center;
+    font-weight: 500;
+}
+
+.subtitle {
+    border-left: 10px double RGB(117,35,45);
+    padding-left: 15px;
+    color: RGB(100,97,102);
+    margin-top: 30px;
+    font-family: "PFDinTextCondPro",
+    Helvetica, Arial, sans-serif; 
+    line-height: 1; 
+    font-weight: 500; 
+}
+
+.text {
+    line-height: 2;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.networks-items {
+    margin-right: 10px;
+}
+  
+.contact-icons {
+    margin-right: 20px;
+}
+   
+.footer {
+    border-top: 2px solid gray;
+    padding: 20px;
+    text-align: center;
+    color:gray;   
+}   
+   
+/* @font-face {
+   src: url("../fonts/OpenSans-Regular.ttf");
+   font-family: OpenSans-Regular;
+}
+
+ @font-face {
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-family: OpenSans-Bold;
+}
+ @font-face {
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-family: OpenSans-ExtraBold;
+}*/
